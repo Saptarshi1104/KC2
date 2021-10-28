@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Let-Chat Create Room</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap' rel='stylesheet'><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="kwitter_room.css">
+
+    </head>
+    <body>
+    
+    <center>
+        <h1 class="header btn btn-success">KittyChat 2.0<sup><img src="m2.png" /></sup>
+            <button class="glyphicon glyphicon-log-out btn btn-info" onclick="logout()" id="logout"><b> Log Out</b></button></h1>
+        <div class="form-group">
+        <h3 id="user_name"></h3>
+        <h4>Great! You have joined KittyChat 2.0, now create a room name and share it with your friend to chat!</h4>
+        <label>Enter Room Name</label>
+        <input type="text" class="form-control" id="roomname" placeholder="Enter Room Name">
+        <button class="btn btn-success" onclick="addRoom()">ADD ROOM</button>
+        <div id="output"></div>
+        <br>
+        <button id="abt" class="btn btn-primary glyphicon glyphicon-info-sign" onclick="about()"> About the website</button>
+        </div>
+    </center>
+    <script src="kwitter_room.js"></script>
+    </body>
+</html>

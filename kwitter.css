@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    font-family: 'Yeon Sung', sans-serif;font-size: 30px;
+}
+img{
+height: 80px;
+width: 80px;
+}
+div{
+background-color: lightcoral;
+width: 800px;
+border-radius: 30px;
+}
+.header{
+    margin: 0px;
+    width: 100%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px coral;
+    }
+    ::selection{
+        color: white;
+        background-color: indianred;
+        }
