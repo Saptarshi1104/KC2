@@ -57,7 +57,7 @@ body{
         }
         ::selection{
             color: white;
-            background-color: indianred;
+            background-color: green;
             }
             body{
                 font-family: 'Yeon Sung', sans-serif;
@@ -72,7 +72,7 @@ body{
                     background-color: blueviolet;
                     color: white;
                     text-align: center;
-                    position: absolute;
+                    position: fixed;
                     bottom: 0;
                     display: inline-block;
                 }
