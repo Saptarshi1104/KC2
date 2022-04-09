@@ -1,15 +1,15 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAWp7GCnkBhTXvfB8L6AKfnMB_wKW4M4RU",
-  authDomain: "kittychat2-294e9.firebaseapp.com",
-  databaseURL: "https://kittychat2-294e9-default-rtdb.firebaseio.com",
-  projectId: "kittychat2-294e9",
-  storageBucket: "kittychat2-294e9.appspot.com",
-  messagingSenderId: "993681670270",
-  appId: "1:993681670270:web:d63c5955381f254f66982f"
+  apiKey: "AIzaSyCBG4Vpa6kuR5bf3nukVae05hx1qKGc61Y",
+  authDomain: "kittychat2-44ca8.firebaseapp.com",
+  databaseURL: "https://kittychat2-44ca8-default-rtdb.firebaseio.com",
+  projectId: "kittychat2-44ca8",
+  storageBucket: "kittychat2-44ca8.appspot.com",
+  messagingSenderId: "801973952337",
+  appId: "1:801973952337:web:9ce8bf3f8126f395fc3d70"
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+var app = firebase.initializeApp(firebaseConfig);
 
 
   user_name = localStorage.getItem("user_name");

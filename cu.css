@@ -12,12 +12,7 @@ background-color: lightcoral;
 width: 800px;
 border-radius: 30px;
 }
-.header{
-    margin: 0px;
-    width: 100%;
-    font-size: 30px;
-    box-shadow: 5px 5px 5px coral;
-    }
+
     ::selection{
         color: white;
         background-color: indianred;
@@ -45,4 +40,37 @@ border-radius: 30px;
 .footer h2{
     font-size: 20px;
     display: inline-block;
+}
+.h1{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}
+.header{
+    margin: 0px;
+    width: 100%;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px coral;
+    }
+    ::selection{
+        color: white;
+        background-color: indianred;
+        }
+        div{
+            background-color: lightcoral;
+            width: 800px;
+            border-radius: 30px;
+            }
+
+#new_update{
+    background-color: pink;
+}
+
+.container img{
+    height: 30px;
+    width: 30px;
 }
