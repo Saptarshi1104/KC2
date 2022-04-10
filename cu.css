@@ -1,17 +1,9 @@
 body{
-    font-family: 'Yeon Sung', sans-serif;
+    font-family: 'Century Gothic';
     font-size: 30px;
     background-color: skyblue;
 }
-img{
-height: 80px;
-width: 80px;
-}
-div{
-background-color: rgb(156, 234, 149);
-width: 800px;
-border-radius: 30px;
-}
+
 
     ::selection{
         color: white;
@@ -50,24 +42,9 @@ h3{
 p{
     font-size: 15px;
 }
-.header{
-    margin: 0px;
-    width: 100%;
-    font-size: 30px;
-    box-shadow: 5px 5px 5px coral;
-    }
-    ::selection{
-        color: white;
-        background-color: green;
-        }
-        div{
-            background-color: rgb(156, 234, 149);
-            width: 800px;
-            border-radius: 30px;
-            }
-
 #new_update{
     background-color: pink;
+    width: 750px;
 }
 
 .container img{
@@ -76,8 +53,18 @@ p{
 }
 #old_update{
     background-color: lightseagreen;
+    width: 750px;
 }
 #logout{
     font-size: 20px;
     float: right;
+    }
+    #contents{
+        background-color: rgb(156, 234, 149);
+        width: 800px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    nav{
+        font-size: 15px;
     }

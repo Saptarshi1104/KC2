@@ -45,22 +45,12 @@ color: grey;
 body{
     background-color: skyblue;
     }
-    img{
-    height: 80px;
-    width: 80px;
-    }
-    .header{
-        margin: 0px;
-        width: 100%;
-        font-size: 30px;
-        box-shadow: 5px 5px 5px coral;
-        }
         ::selection{
             color: white;
             background-color: green;
             }
             body{
-                font-family: 'Yeon Sung', sans-serif;
+                font-family: Century Gothic;
                 font-size: 30px;
                 }
 
@@ -86,4 +76,13 @@ body{
                 .footer h2{
                     font-size: 20px;
                     display: inline-block;
+                }
+                #contents{
+                    width: 800px;
+                    border-radius: 30px;
+                    background-color: rgb(156, 234, 149);
+                    text-align: center;
+                }
+                nav{
+                    font-size: 15px;
                 }

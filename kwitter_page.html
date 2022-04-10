@@ -12,24 +12,25 @@
         <link rel="stylesheet" href="kwitter_page.css">
     </head>
     <body>
-        <div class="container">
-            
-        <center>
-            <h1 class="header btn btn-success">
-                <button id="logout" class="btn btn-info glyphicon glyphicon-log-out" onclick="logout()"> Logout</button>
-                <button id="logout" class="btn btn-info glyphicon glyphicon-log-out" onclick="back()"> Back to Room Names Screen</button>
-                <br>
-                Lets-Chat
-                <sup>
-                    <img src="m2.png">
-                </sup>
-                
-                
-            </h1>
-            <div style="text-align: left; margin-bottom: 70px;" id="output"></div>
-        </center>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Lets-Chat</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Chatting Screen</a></li>
+                <li><a href="cu.html" class="glyphicon glyphicon-bullhorn"> Community Updates</a></li>
+                <li><a href="about.html" class="glyphicon glyphicon-info-sign"> About the Website</a></li>
+                <li><a class="glyphicon glyphicon-log-out" onclick="back()"> Back to Room Names Screen</a></li>
+                <li><a class="glyphicon glyphicon-log-out" onclick="logout()"> Logout</a></li>
+              </ul>
+            </div>
+          </nav>
+<center>
+            <div class="container" id="contents">
+            <div class="container" style="text-align: left; margin-bottom: 70px;" id="output"></div>
         </div>
-        <center>
+
             <div class="input_div_message_page">
                 <label>Send:</label>
                 <input type="text" id="msg" class="form-control" placeholder="Type your message">

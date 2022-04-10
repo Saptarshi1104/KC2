@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
       <title>Let-Chat WebApp</title>
@@ -11,14 +11,29 @@
       <link rel="stylesheet" href="cu.css">
    </head>
    <body>
-      <h1 class="header btn btn-success">
-          <button id="logout" class="btn btn-info glyphicon glyphicon-log-out" onclick="back()"> Back to Home Screen</button>
-          Lets-Chat<sup><img src="m2.png" /></sup>
-    </h1>
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+           <div class="navbar-header">
+             <a class="navbar-brand" href="#">Lets-Chat</a>
+           </div>
+           <ul class="nav navbar-nav">
+             <li class="active"><a href="#">Community Updates Screen</a></li>
+             <li><a href="index.html" class="glyphicon glyphicon-log-out"> Back to Login Screen</a></li>
+             <li><a href="about.html" class="glyphicon glyphicon-info-sign"> About the Website</a></li>
+           </ul>
+         </div>
+       </nav>
       <center>
+         <div class="container" id="contents">
          <h1 style="font-size: 20px;">Community Updates</h1>
          <div class="container">
             <div id="new_update">
+               <h1 id="h1" style="font-size: 20px;">Saptarshi Mandal (Lets-Chat Creator) <img src="tick.png"></h1>
+               <h3>
+               Community Update on 10/04/2022 07:00 A.M GMT.</h1>
+               <p>Today, I did a few updates, like I changed that Lets-Chat Header component to a Navbar component. And a few more things!</p>
+            </div>
+            <div id="old_update">
                <h1 id="h1" style="font-size: 20px;">Saptarshi Mandal (Lets-Chat Creator) <img src="tick.png"></h1>
                <h3>
                Community Update on 09/04/2022 12 Noon GMT.</h1>
@@ -30,6 +45,7 @@
                Community Update on 09/04/2022 07:20 A.M GMT.</h1>
                <p>So, as of 9th April 2022, our website has been updated to a new Firebase Database and some more beautiful things have been added, so please enjoy using our website and the new Firebase Database is going to expire on 9th May. So, if you need to keep record of any important message, then we suggest you to take a screenshot of that message because on that day all old messages will be deleted!</p>
             </div>
+         </div>
          </div>
       </center>
       <div class="footer">
@@ -47,4 +63,4 @@
       </div>
       <script src="kwitter.js"></script>
    </body>
-</html> -->
+</html>
