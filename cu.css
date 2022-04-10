@@ -58,7 +58,7 @@ p{
     }
     ::selection{
         color: white;
-        background-color: indianred;
+        background-color: green;
         }
         div{
             background-color: rgb(156, 234, 149);
@@ -77,3 +77,7 @@ p{
 #old_update{
     background-color: lightseagreen;
 }
+#logout{
+    font-size: 20px;
+    float: right;
+    }
