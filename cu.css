@@ -45,6 +45,7 @@ p{
 #new_update{
     background-color: pink;
     width: 750px;
+    height: fit-content;
 }
 
 .container img{
