@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyDdhaT9B3L8Rml6GRUMLZfMpTwzJYt1NfU",
-  authDomain: "kittychat2-8ad22.firebaseapp.com",
-  databaseURL: "https://kittychat2-8ad22-default-rtdb.firebaseio.com",
-  projectId: "kittychat2-8ad22",
-  storageBucket: "kittychat2-8ad22.appspot.com",
-  messagingSenderId: "321313222770",
-  appId: "1:321313222770:web:741875c1bbb82652be52eb"
+  apiKey: "AIzaSyAxvOGvMmC9attWbnhNnUrg1ktWoIpToOU",
+  authDomain: "letschat2-71e66.firebaseapp.com",
+  databaseURL: "https://letschat2-71e66-default-rtdb.firebaseio.com",
+  projectId: "letschat2-71e66",
+  storageBucket: "letschat2-71e66.appspot.com",
+  messagingSenderId: "804156956216",
+  appId: "1:804156956216:web:dba6ea98d540ade572d0cd"
 };
 
 
