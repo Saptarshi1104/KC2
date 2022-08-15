@@ -1,6 +1,4 @@
 body{
-    font-family: 'Century Gothic';
-    font-size: 30px;
     background-color: skyblue;
 }
 
@@ -65,7 +63,4 @@ p{
         width: 800px;
         border-radius: 30px;
         text-align: center;
-    }
-    nav{
-        font-size: 15px;
     }

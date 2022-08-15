@@ -15,8 +15,6 @@ border-radius: 30px;
 color: white;
 background-color: green;
 }
-body{
-font-family: Century Gothic;font-size: 30px;}
 
 .footer{
     border-radius: 0px;
@@ -46,7 +44,4 @@ font-family: Century Gothic;font-size: 30px;}
     border-radius: 30px;
     background-color: rgb(156, 234, 149);
     text-align: center;
-}
-nav{
-    font-size: 15px;
 }

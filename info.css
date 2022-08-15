@@ -5,7 +5,7 @@ body{
         color: white;
         background-color: green;
         }
-
+        
 .footer{
     border-radius: 0px;
     width: 100%;
@@ -29,13 +29,9 @@ body{
     font-size: 20px;
     display: inline-block;
 }
-#logout{
-    font-size: 20px;
-    float: right;
-    }
-    #contents{
-        width: 800px;
-        border-radius: 30px;
-        background-color: rgb(156, 234, 149);
-        text-align: center;
-    }
+#contents{
+    width: 800px;
+    border-radius: 30px;
+    background-color: rgb(156, 234, 149);
+    text-align: center;
+}

@@ -69,7 +69,3 @@ var app = firebase.initializeApp(firebaseConfig);
     like: updated_likes
     });
     }
-
-    function back(){
-    window.location = "kwitter_room.html";
-    }
