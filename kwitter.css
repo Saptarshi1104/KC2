@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494)
 }
 ::selection{
         color: white;
@@ -11,7 +11,7 @@ body{
     width: 100%;
     font-family: 'Century Gothic';
     font-size: 20px;
-    background-color: lightcyan;
+    background-color: skyblue;
     color: black;
     text-align: center;
     position: fixed;
@@ -36,6 +36,6 @@ body{
     #contents{
         width: 800px;
         border-radius: 30px;
-        background-color: rgb(156, 234, 149);
+        background-color: skyblue;
         text-align: center;
     }

@@ -24,6 +24,7 @@ var app = firebase.initializeApp(firebaseConfig);
     });
     document.getElementById("msg").value = "";
     console.log(message);
+    window.scrollTo(0, document.querySelector("body").scrollHeight);
   }
 
   function getData() 
@@ -69,3 +70,7 @@ var app = firebase.initializeApp(firebaseConfig);
     like: updated_likes
     });
     }
+
+function back(){
+  window.location = "kwitter_room.html";
+}
