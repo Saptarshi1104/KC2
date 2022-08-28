@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyAxvOGvMmC9attWbnhNnUrg1ktWoIpToOU",
-  authDomain: "letschat2-71e66.firebaseapp.com",
-  databaseURL: "https://letschat2-71e66-default-rtdb.firebaseio.com",
-  projectId: "letschat2-71e66",
-  storageBucket: "letschat2-71e66.appspot.com",
-  messagingSenderId: "804156956216",
-  appId: "1:804156956216:web:dba6ea98d540ade572d0cd"
+  apiKey: "AIzaSyBr4AdZ5HbJclFrzMmtI7q4NfXXmcvT7eM",
+  authDomain: "letschat422.firebaseapp.com",
+  databaseURL: "https://letschat422-default-rtdb.firebaseio.com",
+  projectId: "letschat422",
+  storageBucket: "letschat422.appspot.com",
+  messagingSenderId: "27168569728",
+  appId: "1:27168569728:web:b10bfbe9cc3e2131f7a965"
 };
 
 // Initialize Firebase
